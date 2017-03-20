@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+#headline{
+    width: 100%;
+    min-width: 1263px;
+    height: 300px;
+    background:linear-gradient(to bottom right ,rgba(0,0,0,.5),rgba(0,0,0,.0)), url("../img/headline.jpg") no-repeat center;
+}
+#headline .center{
+    width: 1263px;
+    height: 300px;
+    margin: 0 auto;
+}
+#headline hgroup{
+    padding: 100px 0 0 50px;
+
+}
+#headline h2{
+    font-size: 36px;
+    color: #eee;
+    letter-spacing: 1px;
+}
+#headline h3{
+    font-size: 20px;
+    margin: 15px 0 0 0 ;
+    color: #eee;
+    letter-spacing: 1px;
+}
+#container{
+    width: 1263px;
+    margin: 30px auto;
+    /*清除自身的浮动*/
+    /*overflow: hidden;*/
+    /*height: auto;*/
+    /*border: 1px solid red;*/
+}
+#container .sidebar{
+    width: 340px;
+    /*height: 1200px;*/
+    float: right;
+}
+#container .sidebox{
+    border: 1px solid #eee;
+    margin: 0 0 10px 0;
+    text-align: center ;
+}
+#container .sidebox h2{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-indent: 8px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+    color: #666;
+    text-align: left;
+}
+#container .tag{
+    padding: 10px 0;
+}
+#container .tag li{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    margin: 2px 0;
+    display: inline-block;
+    background-color: #eee;
+    text-align: left;
+    text-indent: 8px;
+}
+#container .tag a{
+    display: block;
+    color: #999;
+}
+#container .tag a:hover{
+    background-color: #458b00;
+    color: #fff;
+}
+#container .figure{
+    padding: 10px 0;
+}
+#container figure{
+    display: inline-block;
+    padding: 4px;
+    color: #666;
+
+}
+
+#container .box{
+    padding: 10px 0;
+}
+#container .box a{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 2px 0;
+    display: inline-block;
+    background-color: #eee;
+    color: #999;
+    text-align: left;
+    text-indent: 35px;
+}
+#container .box a:hover{
+    background-color: #458b00;
+    color: #fff;
+
+}
+#container .box a.trea1{
+    background: #eee url("../img/trea1.png") no-repeat 10px center;
+}
+#container .box a.trea2{
+    background: #eee url("../img/trea2.png") no-repeat 10px center;
+}
+#container .box a.trea3{
+    background: #eee url("../img/trea3.png") no-repeat 10px center;
+}
+#container .box a.trea4{
+    background: #eee url("../img/trea4.png") no-repeat 10px center;
+}
+
+#container .list{
+    width: 910px;
+    float: left;
+}
+#container .info{
+    height: 45px;
+    line-height: 45px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+#container .left{
+    /*background-color: maroon;*/
+    float: left;
+}
+#container .left li{
+    display: inline-block;
+    width: 150px;
+    line-height: 43px;
+    height: 43px;
+    text-align: center;
+}
+#container .left li a{
+    color: #666;
+}
+#container .left li:first-child{
+    background-color: #fff;
+    border-top: 3px solid #45b800 ;
+    position: relative;
+    left: 1px;
+}
+#container .right{
+    padding: 0 20px 0 0 ;
+    float: right;
+}
+#container .right li{
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+#container .right a{
+    padding: 3px 8px;
+
+}
+#container .right a.select,#container .right a:hover{
+    background-color: #45b800;
+    color: #fff;
+
+}
+#container .tour{
+    position: relative;
+    width: 908px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    border: 1px solid #eee;
+}
+#container .tour img{
+    float: left;
+    width: 380px;
+    height: 230px;
+}
+#container .tour figcaption{
+    width: 528px;
+    height: 230px;
+    float: right;
+}
+#container .tour hgroup{
+    width: 300px;
+}
+#container .tour h2{
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+    padding: 10px 0 10px 25px;
+}
+#container .tour h3{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    font-weight: normal;
+    padding: 10px 0 10px 25px;
+}
+#container .tour ol{
+    padding: 0 0 0 25px;
+    color: #666;
+    line-height: 2;
+}
+#container .tour mark{
+    background-color: #fff;
+    border: 1px solid #458b00;
+    border-radius: 4px;
+    padding: 0 5px;
+    color: #458b00;
+}
+#container .tour .buy{
+    position: absolute;
+    top: 55px;
+    right: 30px;
+}
+#container .tour .price{
+    color: #f60;
+    font-size: 20px;
+}
+#container .tour .price strong{
+    font-size: 36px;
+}
+#container .tour .price s{
+    font-size: 16px;
+    color: #999;
+}
+#container .tour .reserve{
+    margin: 10px 0 0 0;
+}
+#container .tour .reserve a{
+    display: inline-block;
+    width: 152px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: #f60;
+    color: #fff;
+
+}
+#container .tour .type{
+    width: 90px;
+    background-color: #59b200;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#container .tour .disc{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52px;
+    height: 52px;
+}
+#container .tour .disc span{
+    display: block;
+    transform: rotate(45deg);
+    width: 52px;
+    height: 52px;
+    padding: 5px 0 0 0;
+    text-indent: 7px;
+    font-size: 14px;
+    color: #ff7a4d;
+    font-weight: bold;
+}
+#container .tour footer{
+    width: 530px;
+    height: 35px;
+    line-height: 35px;
+    color: #666;
+    text-indent: 25px;
+    letter-spacing: 1px;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 0;
+}
+#container .tour time{
+    color: #458b00;
+}
+#container .more{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
