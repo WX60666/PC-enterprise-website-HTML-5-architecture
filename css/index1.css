@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*关于选择器:
+   1:元素选择器:通用的样式,局部或者某个单独的模块是不推荐使用元素选择器的;
+   2:class:在一个元素需要多个样式切换或者同时使用的时候,只有class可以实现.
+   3:id:单个样式使用,布局元素上使用id,(布局元素:header,footer,nav...)
+   id/class > ele 强制为子元素设置样式.孙子元素不享有设置的样式.如果不加 > 那么 孙子标签也会继承相同的样式.(精准度变小,但是范围变大);
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.none{
+    display: none;
+}
+#header{
+    width: 100%;
+    height: 70px;
+}
+#header .center{
+    height: 70px;
+    width: 1263px;
+    background-color: #333;
+    margin: 0 auto;
+}
+#header .logo{
+    cursor: pointer;
+    width: 240px;
+    height: 70px;
+    background-image: url("../img/logo.png");
+    text-indent: -9999px;
+    float: left;
+}
+#header .link{
+    width: 650px;
+    color: #eee;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+}
+#header .link li{
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+#header .link a{
+    display: block;
+    color: #fff;
+}
+#header .link a:hover{
+    background-color: #000;
+}
+#header .active a{
+    background-color: #000;
+}

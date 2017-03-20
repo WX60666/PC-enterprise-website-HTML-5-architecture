@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+#headline{
+    width: 100%;
+    min-width: 1263px;
+    height: 300px;
+    background:linear-gradient(to bottom right ,rgba(0,0,0,.5),rgba(0,0,0,.0)), url("../img/headline.jpg") no-repeat center;
+}
+#headline .center{
+    width: 1263px;
+    height: 300px;
+    margin: 0 auto;
+}
+#headline hgroup{
+    padding: 100px 0 0 50px;
+
+}
+#headline h2{
+    font-size: 36px;
+    color: #eee;
+    letter-spacing: 1px;
+}
+#headline h3{
+    font-size: 20px;
+    margin: 15px 0 0 0 ;
+    color: #eee;
+    letter-spacing: 1px;
+}
+#container{
+    width: 1263px;
+    margin: 30px auto;
+    /*清除自身的浮动*/
+    /*overflow: hidden;*/
+    /*height: auto;*/
+    /*border: 1px solid red;*/
+}
+#container .sidebar{
+    width: 340px;
+    /*height: 1200px;*/
+    float: right;
+}
+#container .sidebox{
+    border: 1px solid #eee;
+    margin: 0 0 10px 0;
+    text-align: center ;
+}
+#container .sidebox h2{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-indent: 8px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+    color: #666;
+    text-align: left;
+}
+#container .tag{
+    padding: 10px 0;
+}
+#container .tag li{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    margin: 2px 0;
+    display: inline-block;
+    background-color: #eee;
+    text-align: left;
+    text-indent: 8px;
+}
+#container .tag a{
+    display: block;
+    color: #999;
+}
+#container .tag a:hover{
+    background-color: #458b00;
+    color: #fff;
+}
+#container .figure{
+    padding: 10px 0;
+}
+#container figure{
+    display: inline-block;
+    padding: 4px;
+    color: #666;
+
+}
+
+#container .box{
+    padding: 10px 0;
+}
+#container .box a{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 2px 0;
+    display: inline-block;
+    background-color: #eee;
+    color: #999;
+    text-align: left;
+    text-indent: 35px;
+}
+#container .box a:hover{
+    background-color: #458b00;
+    color: #fff;
+
+}
+#container .box a.trea1{
+    background: #eee url("../img/trea1.png") no-repeat 10px center;
+}
+#container .box a.trea2{
+    background: #eee url("../img/trea2.png") no-repeat 10px center;
+}
+#container .box a.trea3{
+    background: #eee url("../img/trea3.png") no-repeat 10px center;
+}
+#container .box a.trea4{
+    background: #eee url("../img/trea4.png") no-repeat 10px center;
+}
+
+#container .list{
+    width: 910px;
+    float: left;
+}
+#container .info{
+    height: 45px;
+    line-height: 45px;
+    background-color: #eee;
+}
+#container .left{
+    /*background-color: maroon;*/
+    float: left;
+}
+#container .left li{
+    display: inline-block;
+    width: 150px;
+    line-height: 43px;
+    height: 43px;
+    text-align: center;
+}
+#container .left li a{
+    color: #666;
+}
+#container .left li:first-child{
+    background-color: #fff;
+    border-top: 3px solid #45b800 ;
+    position: relative;
+    left: 1px;
+}
+#container .right{
+    padding: 0 20px 0 0 ;
+    float: right;
+}
+#container .right li{
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+#container .right a{
+    padding: 3px 8px;
+
+}
+#container .right a.select,#container .right a:hover{
+    background-color: #45b800;
+    color: #fff;
+
+}
