@@ -11,6 +11,7 @@ a{
 }
 body{
     background-color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
 }
 .none{
     display: none;
