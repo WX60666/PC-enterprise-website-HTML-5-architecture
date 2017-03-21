@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>机票预订</title>
+    <title>票务资讯</title>
     <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/information3.css">
 </head>
 <body>
 <header id="header">
@@ -14,15 +15,257 @@
             <h1 class="none">网站导航</h1>
             <ul>
                 <li><a href="index5.html">首页</a></li>
-                <li ><a href="information3.html">旅游资讯</a></li>
+                <li><a href="information3.html">旅游资讯</a></li>
                 <li class="active"><a href="#">机票订购</a></li>
-                <li><a href="###">风景欣赏</a></li>
-                <li><a href="###">公司简介</a></li>
+                <li><a href="scenery.html">风景欣赏</a></li>
+                <li><a href="about.html">公司简介</a></li>
             </ul>
         </nav>
     </div>
 </header>
+<div id="headline">
+    <div class="center">
+        <hgroup>
+            <h2>旅游咨询</h2>
+            <h3>介绍各种最新旅游信息,资讯要是是更新,如果不封信就不获取</h3>
+        </hgroup>
+    </div>
+</div>
+<div id="container">
+    <aside class="sidebar">
+        <div class="sidebox recommend">
+            <h2>景点推荐</h2>
+            <div class="tag">
+                <ul>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                    <li> <a href="###">曼谷(12)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebox hot">
+            <h2>热门旅游</h2>
+            <div class="figure">
+                <figure>
+                    <img src="img/hot1.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hot2.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hot3.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hot4.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hot5.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hot6.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hot7.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hot8.jpg" alt="曼谷">
+                    <figcaption>曼谷-巴尼亚6日游</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="sidebox treasure">
+            <h2>旅游百宝箱</h2>
+            <div class="box">
+                <a class="trea1" href="###">地铁线路查询</a>
+                <a class="trea2" href="###">天气预报</a>
+                <a class="trea3" href="###">火车票查询</a>
+                <a class="trea4" href="###">航空查询</a>
+            </div>
+        </div>
+    </aside>
+    <div class="list ticket">
+        <form action="###">
+            <h2>机票预订</h2>
+            <div class="type">
+                <p>航班类型 : <mark>单程</mark> 往返</p>
+            </div>
+            <div class="form left">
+                <p>
+                    <label for="from_city">出发城市</label>
+                    <input type="text" name="from_city" id="from_city" placeholder="城市名">
+                </p>
+                <p>
+                    <label for="from_city">返回城市</label>
+                    <input type="text" name="to_city" id="to_city" placeholder="城市名">
+                </p>
+            </div>
+            <div class="form right">
+                <p>
+                    <label for="from_city">出发时间</label>
+                    <input type="text" name="from_date" id="from_date" placeholder="时间/日期">
+                </p>
+                <p>
+                    <label for="from_city">返回时间</label>
+                    <input type="text" name="to_date" id="to_date" placeholder="时间/日期">
+                </p>
+            </div>
+            <div class="form button">
+                <p>
+                    <button type="submit" class="submit">订票</button>
+                </p>
+            </div>
+        </form>
+        <div class="new">
+            <h2>最新机票</h2>
+            <ul>
+                <li>热门城市 : </li>
+                <li>北京</li>
+                <li>上海</li>
+                <li>杭州</li>
+                <li>云南</li>
+                <li>昆明</li>
+                <li>重庆</li>
+                <li>湖南</li>
 
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>路线</th>
+                        <th>日期</th>
+                        <th>价格</th>
+                        <th>餐食</th>
+                        <th>税费</th>
+                        <th>航班</th>
+                        <th>预订</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                   <tr>
+                       <td>北京-成都</td>
+                       <td>10-15</td>
+                       <td class="price">¥765</td>
+                       <td>¥50</td>
+                       <td>有</td>
+                       <td>春秋航空</td>
+                       <td><a href="###" class="reserve">预订</a></td>
+                   </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="7"><a href="###" class="more">加载更多航班...</a></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+
+</div>
 <footer id="footer">
     <div class="top">
         <div class="block left">
@@ -61,4 +304,3 @@
     <div class="button">京 ICP 证 09002463 号|Copyright © 1999-2016, CSDN.NET, All Rights Reserved </div>
 </footer>
 </body>
-</html>

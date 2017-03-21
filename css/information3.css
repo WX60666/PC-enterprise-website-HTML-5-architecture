@@ -128,42 +128,42 @@
     background-color: #eee;
     margin-bottom: 20px;
 }
-#container .left{
+#container .information .left{
     /*background-color: maroon;*/
     float: left;
 }
-#container .left li{
+#container .information .left li{
     display: inline-block;
     width: 150px;
     line-height: 43px;
     height: 43px;
     text-align: center;
 }
-#container .left li a{
+#container  .information .left li a{
     color: #666;
 }
-#container .left li:first-child{
+#container .information .left li:first-child{
     background-color: #fff;
     border-top: 3px solid #45b800 ;
     position: relative;
     left: 1px;
 }
-#container .right{
+#container .information  .right{
     padding: 0 20px 0 0 ;
     float: right;
 }
-#container .right li{
+#container .information  .right li{
     display: inline-block;
     width: 60px;
     height: 45px;
     line-height: 45px;
     text-align: center;
 }
-#container .right a{
+#container .information  .right a{
     padding: 3px 8px;
 
 }
-#container .right a.select,#container .right a:hover{
+#container .information  .right a.select,#container .right a:hover{
     background-color: #45b800;
     color: #fff;
 
@@ -253,7 +253,7 @@
     color: #fff;
     text-align: center;
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 0;
 }
 #container .tour .disc{
@@ -288,7 +288,7 @@
 #container .tour time{
     color: #458b00;
 }
-#container .more{
+#container .information .more ,#container .scenery .more{
     margin: 0 auto;
     width: 200px;
     height: 50px;
@@ -301,4 +301,166 @@
     font-size: 18px;
     color: #666;
 }
+#container .ticket,#container .scenery,#container .about{
+    color: #666;
+    font-size: 18px;
+}
+#container .ticket h2,#container .scenery h2,#container .about h2{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #999;
+    padding: 0 0 10px 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+#container .type{
+    margin: 10px 0 20px 0;
+}
+#container .ticket .type mark{
+    color: #fff;
+    background-color: #458b00;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 0 10px 0 16px;
+}
+#container .ticket .left{
+    width: 43%;
+    display: inline-block;
+}
+#container .ticket .right{
+    width: 43%;
+    display: inline-block;
+}
+#container .ticket .button{
+    width: 9%;
+    display: inline-block;
+}
+#container .ticket .submit{
+    display:block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f60;
+    border: none;
+    position: relative;
+    top: -26px;
+    cursor: pointer;
+    outline: none;
+}
+#container .ticket .form{
+    font-size: 18px;
+}
+#container .ticket .form p{
+    line-height: 3;
+}
+#container .ticket .form input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    margin: 0 0 0 16px;
+    font-size: 18px;
+}
+#container .ticket .new h2{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #999;
+    padding: 0 0 10px 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+#container .ticket .new {
+    margin: 20px 0 0 0;
+}
+#container .ticket .new ul {
+    margin: 20px 0 0 0;
+}
+#container .ticket .new ul li{
+    padding: 5px 10px;
+    display: inline-block;
+}
+#container .ticket .new ul li:first-child{
+    padding-left: 0;
 
+}
+#container .ticket .new ul li:nth-child(2){
+    background-color: #45b800;
+    color: #fff;
+    border-radius: 4px;
+}
+#container .ticket table{
+    margin: 20px 0 0 0 ;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+#container .ticket th{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+#container .ticket td{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+#container .ticket tr:nth-child(2n){
+    background-color: #fafafa;
+}
+#container .ticket tr:hover{
+    background-color: #eee;
+}
+#container .ticket .price{
+    color: #f60;
+}
+#container .ticket .more{
+    color: #666;
+}
+#container .ticket .reserve{
+    display:inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f60;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#container .scenery figure{
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 15px 5px 15px 0;
+    width: 435px;
+    text-align: left;
+}
+#container .scenery figure img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+#container .scenery figcaption {
+    text-align: center;
+    padding: 5px;
+}
+#container .about p{
+    line-height: 2;
+    margin: 20px 20px 20px 0;
+}
+#container .about .address{
+    line-height: 1.6;
+    font-weight: normal;
+}
