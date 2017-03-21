@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d6ef5f95-4d68-4bc7-9e1e-4b633ad70a5d" name="默认的" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reservation.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reservation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index5.html" afterPath="$PROJECT_DIR$/index5.html" />
+=======
+    <list default="true" id="2d352fd5-ec5a-46ea-84bb-9727ec3a3cfa" name="默认的" comment="">
+>>>>>>> 1ce9ac28f9877fb7b643be5aa7ccdf982e4b332a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information3.html" afterPath="$PROJECT_DIR$/information3.html" />
     </list>
     <ignored path="PC-enterprise-website-HTML-5-architecture.iws" />
@@ -26,6 +30,7 @@
     <favorites_list name="PC-enterprise-website-HTML-5-architecture" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
@@ -85,6 +90,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+=======
+    <leaf>
+      <file leaf-file-name="information3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/information3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63432837">
+              <caret line="327" column="39" selection-start-line="327" selection-start-column="39" selection-end-line="327" selection-end-column="39" />
+>>>>>>> 1ce9ac28f9877fb7b643be5aa7ccdf982e4b332a
               <folding />
             </state>
           </provider>
@@ -106,10 +119,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index5.html" />
         <option value="$PROJECT_DIR$/information3.html" />
         <option value="$PROJECT_DIR$/reservation.html" />
         <option value="$PROJECT_DIR$/css/reservation.css" />
+=======
+        <option value="$PROJECT_DIR$/information3.html" />
+>>>>>>> 1ce9ac28f9877fb7b643be5aa7ccdf982e4b332a
       </list>
     </option>
   </component>
@@ -119,10 +136,17 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="25" />
     <option name="y" value="23" />
     <option name="width" value="1255" />
     <option name="height" value="777" />
+=======
+    <option name="x" value="211" />
+    <option name="y" value="17" />
+    <option name="width" value="1627" />
+    <option name="height" value="991" />
+>>>>>>> 1ce9ac28f9877fb7b643be5aa7ccdf982e4b332a
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="添加" />
@@ -193,14 +217,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d6ef5f95-4d68-4bc7-9e1e-4b633ad70a5d" name="默认的" comment="" />
-      <created>1489995826453</created>
+      <changelist id="2d352fd5-ec5a-46ea-84bb-9727ec3a3cfa" name="默认的" comment="" />
+      <created>1490058725512</created>
       <option name="number" value="Default" />
+<<<<<<< HEAD
       <option name="presentableId" value="Default" />
       <updated>1489995826453</updated>
       <workItem from="1490029560088" duration="3000" />
@@ -218,6 +241,17 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16450568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <updated>1490058725512</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="211" y="17" width="1627" height="991" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12271869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 1ce9ac28f9877fb7b643be5aa7ccdf982e4b332a
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -243,8 +277,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/information3.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="51">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
@@ -324,6 +359,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.63432837">
+          <caret line="327" column="39" selection-start-line="327" selection-start-column="39" selection-end-line="327" selection-end-column="39" />
+>>>>>>> 1ce9ac28f9877fb7b643be5aa7ccdf982e4b332a
           <folding />
         </state>
       </provider>
